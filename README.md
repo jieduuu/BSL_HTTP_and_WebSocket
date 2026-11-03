@@ -1,4 +1,4 @@
-# 🚀 CCC181 Lab 1: BSL HTTP & WebSocket Portfolio Landing Page
+# CCC181 Lab 1: BSL HTTP & WebSocket Portfolio Landing Page
 
 > **Developer:** Jeddrick Amarga  
 > **Program & Track:** BSIT – 3rd Year (Network Systems)  
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 1. Project Overview
+##  1. Project Overview
 
 This repository features a custom portfolio web application built and served using the **Bonezegei Scripting Language (BSL v1.3.3)** HTTP web server engine. Developed for **CCC181 Laboratory 1**, this project highlights low-level web routing, static asset distribution, and real-time client-server communication over WebSockets.
 
@@ -52,7 +52,7 @@ BSL_HTTP_and_WebSocket/
 
 ---
 
-## 🛠️ 2. Setup & Execution Steps
+##  2. Setup & Execution Steps
 
 Follow these step-by-step commands to clone, initialize, and execute the web server:
 
@@ -79,23 +79,23 @@ Follow these step-by-step commands to clone, initialize, and execute the web ser
 
 ---
 
-## 🖥️ 3. Execution Verification
+##  3. Execution Verification
 
 The screenshots below verify the operational status of the server startup script and browser rendering.
 
-### 🟢 Terminal Output (`bzg run`)
+###  Terminal Output (`bzg run`)
 Clean terminal session confirming active HTTP server execution on port 8000:
 ![Terminal Verification](screenshots/terminal.png)
 
 ---
 
-### 🌐 Portfolio Landing Page Render
+###  Portfolio Landing Page Render
 Main portfolio user interface loaded successfully via local HTTP GET request:
 ![Browser Overview](screenshots/browser.png)
 
 ---
 
-### ⚡ WebSocket Connection & Features Test
+###  WebSocket Connection & Features Test
 Live verification demonstrating active WebSocket handshakes and interactive page modules:
 ![Browser Features & WebSocket Status](screenshots/browser2.png)
 
