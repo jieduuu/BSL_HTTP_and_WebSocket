@@ -17,7 +17,7 @@ The landing page features a customized **luxury dark aesthetic** with gold geome
 
 ---
 
-##Tech Stack & Environment
+## Tech Stack & Environment
 
 | Component | Specification / Technology |
 | :--- | :--- |
