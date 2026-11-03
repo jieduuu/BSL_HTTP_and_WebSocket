@@ -48,3 +48,59 @@ BSL_HTTP_and_WebSocket/
 ├── Bonezegei-x86.deb      # BSL Debian installation package
 ├── LICENSE                # Open-source MIT License
 └── README.md              # Project documentation
+```
+
+---
+
+## 🛠️ 2. Setup & Execution Steps
+
+Follow these step-by-step commands to clone, initialize, and execute the web server:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/jieduuu/BSL_HTTP_and_WebSocket.git](https://github.com/jieduuu/BSL_HTTP_and_WebSocket.git)
+   cd BSL_HTTP_and_WebSocket
+   ```
+
+2. **Install BSL Dependencies:**
+   Run the BSL environment initialization tool:
+   ```bash
+   bzg install
+   ```
+
+3. **Launch the HTTP Server Engine:**
+   Start the BSL server instance:
+   ```bash
+   bzg run
+   ```
+
+4. **Access the Application:**
+   Open your browser and navigate to `http://localhost:8000` (or preview forwarded Port 8000 in GitHub Codespaces).
+
+---
+
+## 🖥️ 3. Execution Verification
+
+The screenshots below verify the operational status of the server startup script and browser rendering.
+
+### 🟢 Terminal Output (`bzg run`)
+Clean terminal session confirming active HTTP server execution on port 8000:
+![Terminal Verification](screenshots/terminal.png)
+
+---
+
+### 🌐 Portfolio Landing Page Render
+Main portfolio user interface loaded successfully via local HTTP GET request:
+![Browser Overview](screenshots/browser.png)
+
+---
+
+### ⚡ WebSocket Connection & Features Test
+Live verification demonstrating active WebSocket handshakes and interactive page modules:
+![Browser Features & WebSocket Status](screenshots/browser2.png)
+
+---
+
+## 📄 License
+
+This repository is released as open-source software under the **MIT License**.
