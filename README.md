@@ -19,7 +19,7 @@ This repository features a custom portfolio web application built and served usi
 
 ---
 
-## ⚙️ Tech Stack & Architecture
+##  Tech Stack & Architecture
 
 | System Layer | Technology / Specification | Purpose |
 | :--- | :--- | :--- |
