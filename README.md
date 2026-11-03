@@ -17,7 +17,7 @@ The landing page features a customized **luxury dark aesthetic** with gold geome
 
 ---
 
-## Tech Stack & Environment
+##Tech Stack & Environment
 
 | Component | Specification / Technology |
 | :--- | :--- |
@@ -107,7 +107,7 @@ Created a luxury dark aesthetic inspired by high-end design templates:
 
 ---
 
-## 🧪 Verification & Local Testing
+##  Verification & Local Testing
 
 1. Started the BSL application server by running `bzg run` inside the terminal.
 2. Forwarded Port `8000` to preview the application in the web browser.
@@ -116,16 +116,13 @@ Created a luxury dark aesthetic inspired by high-end design templates:
    - The profile picture loads inside the circular frame via `http://localhost:8000/profile.jpg`.
    - Undefined paths return the custom `public/404.html` page.
 
----
+  ## 📸 Proof of Execution & Output Verification
+1. Terminal Output (bzg run)
+![Terminal Output](public/bzgrun.png)
 
-## 📤 Pushing Changes to GitHub
-
-Saved and updated remote repository files using standard Git terminal commands:
-- `git add README.md public/index.html app.bzg`
-- `git commit -m "Finalize Lab 1 README documentation and static routing"`
-- `git push origin main`
-
----
+2. Browser Rendering Output
+Verification of responsive rendering and image display inside the circular gold frame:
+![Browser Rendering](public/LandingPage.png)
 
 ## 📜 License
 
